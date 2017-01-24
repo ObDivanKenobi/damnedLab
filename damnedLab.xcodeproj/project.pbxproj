@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		84FF8B691E37AB0500C2FF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B681E37AB0500C2FF5F /* AppDelegate.swift */; };
-		84FF8B6B1E37AB0500C2FF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B6A1E37AB0500C2FF5F /* ViewController.swift */; };
 		84FF8B6E1E37AB0600C2FF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF8B6C1E37AB0600C2FF5F /* Main.storyboard */; };
 		84FF8B701E37AB0600C2FF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF8B6F1E37AB0600C2FF5F /* Assets.xcassets */; };
 		84FF8B731E37AB0600C2FF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF8B711E37AB0600C2FF5F /* LaunchScreen.storyboard */; };
+		84FF8B7B1E37B37D00C2FF5F /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B7A1E37B37D00C2FF5F /* Images.swift */; };
+		84FF8B7D1E37B39400C2FF5F /* FullCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B7C1E37B39400C2FF5F /* FullCollectionViewController.swift */; };
+		84FF8B811E37B3C200C2FF5F /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B801E37B3C200C2FF5F /* ItemViewController.swift */; };
+		84FF8B871E37B7AC00C2FF5F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF8B861E37B7AC00C2FF5F /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84FF8B651E37AB0500C2FF5F /* damnedLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = damnedLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF8B681E37AB0500C2FF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FF8B6A1E37AB0500C2FF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84FF8B6D1E37AB0600C2FF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FF8B6F1E37AB0600C2FF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FF8B721E37AB0600C2FF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FF8B741E37AB0600C2FF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF8B7A1E37B37D00C2FF5F /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		84FF8B7C1E37B39400C2FF5F /* FullCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullCollectionViewController.swift; sourceTree = "<group>"; };
+		84FF8B801E37B3C200C2FF5F /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		84FF8B861E37B7AC00C2FF5F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				84FF8B681E37AB0500C2FF5F /* AppDelegate.swift */,
-				84FF8B6A1E37AB0500C2FF5F /* ViewController.swift */,
+				84FF8B7C1E37B39400C2FF5F /* FullCollectionViewController.swift */,
+				84FF8B801E37B3C200C2FF5F /* ItemViewController.swift */,
 				84FF8B6C1E37AB0600C2FF5F /* Main.storyboard */,
+				84FF8B7A1E37B37D00C2FF5F /* Images.swift */,
 				84FF8B6F1E37AB0600C2FF5F /* Assets.xcassets */,
 				84FF8B711E37AB0600C2FF5F /* LaunchScreen.storyboard */,
 				84FF8B741E37AB0600C2FF5F /* Info.plist */,
+				84FF8B861E37B7AC00C2FF5F /* CustomCell.swift */,
 			);
 			path = damnedLab;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FF8B6B1E37AB0500C2FF5F /* ViewController.swift in Sources */,
+				84FF8B7B1E37B37D00C2FF5F /* Images.swift in Sources */,
 				84FF8B691E37AB0500C2FF5F /* AppDelegate.swift in Sources */,
+				84FF8B871E37B7AC00C2FF5F /* CustomCell.swift in Sources */,
+				84FF8B7D1E37B39400C2FF5F /* FullCollectionViewController.swift in Sources */,
+				84FF8B811E37B3C200C2FF5F /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +272,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = damnedLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftlabs.damnedLab;
@@ -272,6 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = damnedLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftlabs.damnedLab;
